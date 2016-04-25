@@ -5,25 +5,25 @@
 # Device options 
 #  (These will be automatically be set to 'False' if unavailable)
 USE_INTERNET = True		# Download map/place data via internet connection
-USE_GPS = True			# Use GPS module, accessed via GPSD daemon
+USE_GPS = False			# Use GPS module, accessed via GPSD daemon
 USE_SOUND = True		# Play sounds via RasPi's current sound-source
 USE_CAMERA = True		# Use RasPi camera-module as V.A.T.S
-USE_SERIAL = True		# Communicate with custom serial-port controller
+USE_SERIAL = False		# Communicate with custom serial-port controller
 
 QUICKLOAD = False		# If true, commandline-startup bits aren't rendered
 FORCE_DOWNLOAD = False	# Don't use cached map-data, if online
 
 # Render screen-objects at this size - smaller is faster
-WIDTH = 320
-HEIGHT = 240
+WIDTH = 640
+HEIGHT = 480
 
 # Address for map's default position: 
 #	(used if GPS is inactive)
-defaultPlace = "Washington DC"
+defaultPlace = "Germany"
 
 # Player data:
-PLAYERNAME = 'Niil'
-PLAYERLEVEL = 33
+PLAYERNAME = 'Yukosama'
+PLAYERLEVEL = 69
 
 FPS = 15
 
